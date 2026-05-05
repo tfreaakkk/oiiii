@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz da Mãe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="quiz">
+  <main class="page">
+    <section class="card quiz-card fade-in">
+      <p class="eyebrow">Fase 1</p>
+      <h1>Quiz do coração</h1>
+      <p class="subtitle">Mãe, vamos ver se você desbloqueia a surpresa secreta?</p>
+
+      <div class="progress" aria-label="Progresso do quiz">
+        <span id="quiz-progress"></span>
+      </div>
+
+      <h2 id="question-title">Carregando pergunta...</h2>
+      <div id="answers" class="answer-grid"></div>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="next-question" class="primary-button hidden" type="button">Próxima</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
